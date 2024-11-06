@@ -1,7 +1,7 @@
 const word = prompt('Inserisci una parola!')
 
 /**
- * Description
+ * Reverses any word
  * @param {string} word
  * @returns {string}
  */
@@ -21,5 +21,5 @@ if(word === reverseWord(word)) {
 } else {
     const message = 'La parola che hai inserito non è palindroma!'
     console.log(message)
-}
+}   
 
